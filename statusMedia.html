@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+    
+    const nota1 = parseFloat(prompt("Informe a primeira nota:"));
+    const nota2 = parseFloat(prompt("Informe a segunda nota:"));
+    const nota3 = parseFloat(prompt("Informe a terceira nota:"));
+
+    const media = (nota1 + nota2 + nota3) / 3;
+
+    const status = media >= 7 ? "Aprovado" : "Reprovado";
+
+    console.log(` Sua média é ${media} | Status: ${status}`);
+
+    </script>    
+
+</body>
+</html>
